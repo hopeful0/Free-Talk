@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s2.sj0211.freetalk.ChatRoomActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:dividerHeight="8dp"
+        android:divider="#00000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:maxLines="4"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toStartOf="@+id/button"
+            style="@style/Widget.AppCompat.EditText"
+            android:background="@drawable/edittext"
+            android:minLines="1"
+            android:layout_margin="8dp"
+            android:padding="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:enabled="false"
+            android:background="@drawable/button"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentRight="true"
+            android:minHeight="32dp"
+            android:layout_alignParentBottom="false"
+            android:layout_marginRight="8dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

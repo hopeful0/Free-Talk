@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "243849917851",
+    "firebase_url": "https://free-talk-3be9c.firebaseio.com",
+    "project_id": "free-talk-3be9c",
+    "storage_bucket": "free-talk-3be9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243849917851:android:edf9fcbd811d6744",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s2.sj0211.freetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243849917851-c4ooc08ukru021b78e13dnr62duqps53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtax0yeoThG-bkHfpx8Z7fPWiQ4IScXeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
